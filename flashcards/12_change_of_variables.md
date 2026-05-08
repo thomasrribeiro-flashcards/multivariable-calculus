@@ -256,3 +256,20 @@ S:
 5. Multiply: $\tfrac{32}{5}\cdot 2\cdot 2\pi = \tfrac{128\pi}{5}$.
 
 **EVALUATE**: The ball has volume $\tfrac{4}{3}\pi(2)^3 = \tfrac{32\pi}{3}$, and $\rho^2$ averages $\tfrac{1}{V}\int_E\rho^2\,dV$. Our answer gives an average of $\tfrac{128\pi/5}{32\pi/3} = \tfrac{12}{5} = 2.4$, which is less than the maximum value $\rho^2=4$ at the boundary and greater than zero at the center — reasonable for a weighted average. Units and signs check out.
+
+## 12.10 Pattern-Recognition: Choosing the Right Coordinate System
+
+Q: You see an integral over a disk, annulus, or sector. What coordinates?
+A: Polar — $x=r\cos\theta$, $y=r\sin\theta$, $dA = r\,dr\,d\theta$.
+
+Q: You see an integral over a cylinder or where the integrand contains $x^2+y^2$. What coordinates?
+A: Cylindrical — $x=r\cos\theta$, $y=r\sin\theta$, $z=z$, $dV = r\,dr\,d\theta\,dz$.
+
+Q: You see an integral over a ball, spherical shell, or region where the integrand contains $x^2+y^2+z^2$. What coordinates?
+A: Spherical — $\rho^2 = x^2+y^2+z^2$, $dV = \rho^2\sin\phi\,d\rho\,d\phi\,d\theta$.
+
+Q: You see an integral over a parallelogram or ellipse with awkward sides. What approach?
+A: Define a custom $T$ that sends a rectangle (or unit disk) to the region; compute $|J|$.
+
+Q: The integrand contains $x+y$ or $x-y$ over a region bounded by lines $x+y = \text{const}$. What substitution?
+A: $u = x+y$, $v = x-y$ (or similar) — turns the integrand and region into simple rectangle.
