@@ -1,5 +1,6 @@
 +++
 order = 3
+subject = "Math"
 tags = ["math", "multivariable-calculus", "vector-functions", "space-curves", "velocity", "acceleration"]
 +++
 

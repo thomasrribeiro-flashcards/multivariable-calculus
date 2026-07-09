@@ -1,5 +1,6 @@
 +++
 order = 4
+subject = "Math"
 tags = ["math", "multivariable-calculus", "arc-length", "curvature", "tnb-frame", "osculating-plane"]
 +++
 

@@ -1,5 +1,6 @@
 +++
 order = 9
+subject = "Math"
 tags = ["math", "multivariable-calculus", "extrema", "critical-points", "second-derivative-test", "lagrange-multipliers"]
 +++
 

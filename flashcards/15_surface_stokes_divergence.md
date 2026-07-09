@@ -1,5 +1,6 @@
 +++
 order = 15
+subject = "Math"
 tags = ["math", "multivariable-calculus", "surface-integrals", "stokes-theorem", "divergence-theorem", "flux", "curl"]
 +++
 

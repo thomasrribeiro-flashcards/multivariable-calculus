@@ -1,5 +1,6 @@
 +++
 order = 12
+subject = "Math"
 tags = ["math", "multivariable-calculus", "change-of-variables", "jacobian", "transformations", "substitution"]
 +++
 

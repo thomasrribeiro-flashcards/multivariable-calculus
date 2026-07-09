@@ -1,5 +1,6 @@
 +++
 order = 14
+subject = "Math"
 tags = ["math", "multivariable-calculus", "greens-theorem", "conservative-fields", "path-independence", "potential-functions"]
 +++
 

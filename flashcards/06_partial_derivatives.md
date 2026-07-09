@@ -1,5 +1,6 @@
 +++
 order = 6
+subject = "Math"
 tags = ["math", "multivariable-calculus", "partial-derivatives", "higher-order", "clairaut", "differentiability"]
 +++
 
