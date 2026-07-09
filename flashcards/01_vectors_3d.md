@@ -1,6 +1,6 @@
 +++
 order = 1
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "vectors", "3d-geometry", "dot-product", "cross-product"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 4
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "arc-length", "curvature", "tnb-frame", "osculating-plane"]
 +++
 

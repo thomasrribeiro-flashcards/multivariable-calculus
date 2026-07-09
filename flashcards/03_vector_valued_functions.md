@@ -1,6 +1,6 @@
 +++
 order = 3
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "vector-functions", "space-curves", "velocity", "acceleration"]
 +++
 

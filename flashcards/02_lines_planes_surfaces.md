@@ -1,6 +1,6 @@
 +++
 order = 2
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "lines", "planes", "quadric-surfaces", "cylindrical", "spherical"]
 +++
 
