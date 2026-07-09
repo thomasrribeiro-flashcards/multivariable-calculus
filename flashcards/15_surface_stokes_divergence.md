@@ -190,7 +190,7 @@ S:
 Q: What common structure do FTC, FTLI, Green's, Stokes', and Divergence Theorems share?
 A: Each equates the integral of a derivative over a region with the integral of the original function over the region's boundary. The "derivative" varies (ordinary, gradient, 2D curl, 3D curl, divergence), but the pattern "integral of derivative inside = integral of function on boundary" is identical.
 
-C: The [Fundamental Theorem of Calculus] $\int_a^b f'(x)\,dx = f(b) - f(a)$ fits the unification pattern: boundary of $[a,b]$ is the two endpoints, and $f$ is evaluated there.
+C: The [Fundamental Theorem of Calculus] $\int_a^b f'(x)\,dx = f(b) - f(a)$ fits the unification pattern: boundary of $\lbrack a,b\rbrack $ is the two endpoints, and $f$ is evaluated there.
 
 C: The [Fundamental Theorem of Line Integrals] $\int_C \nabla f \cdot d\vec{r} = f(\vec{r}(b)) - f(\vec{r}(a))$ relates the gradient integrated over a curve to $f$ evaluated at the curve's endpoints (its boundary).
 

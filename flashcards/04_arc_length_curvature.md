@@ -14,7 +14,7 @@ A: That formula assumes the curve is the graph of a single-valued function $y = 
 Q: Before deriving an arc-length formula, predict: if a particle traces out a curve, what quantity integrated over time should give total distance traveled?
 A: Speed. Distance equals speed times time for constant motion, and integrating speed over an interval generalizes this to variable motion — this is exactly the insight behind the arc-length integral.
 
-C: The arc-length problem asks: given a parametrized curve $\vec{r}(t)$ for $t \in [a,b]$, compute the [total length] of the path traced out.
+C: The arc-length problem asks: given a parametrized curve $\vec{r}(t)$ for $t \in \lbrack a,b\rbrack $, compute the [total length] of the path traced out.
 
 ## 4.2 Arc length formula: $L = \int_a^b |\vec{r}\,'(t)|\,dt$
 

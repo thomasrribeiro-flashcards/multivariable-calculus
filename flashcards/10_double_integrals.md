@@ -41,7 +41,7 @@ A: If $f$ is continuous on $R$, or discontinuous only on a set of area zero (e.g
 
 ## 10.4 Iterated Integrals
 
-C: An [iterated integral] over a rectangle $R = [a, b] \times [c, d]$ is $\int_a^b \int_c^d f(x, y)\,dy\,dx$, meaning: first integrate $f$ with respect to $y$ from $c$ to $d$ treating $x$ as constant, then integrate the resulting function of $x$ from $a$ to $b$.
+C: An [iterated integral] over a rectangle $R = \lbrack a, b\rbrack  \times \lbrack c, d\rbrack $ is $\int_a^b \int_c^d f(x, y)\,dy\,dx$, meaning: first integrate $f$ with respect to $y$ from $c$ to $d$ treating $x$ as constant, then integrate the resulting function of $x$ from $a$ to $b$.
 
 Q: Why does the inner integral produce a function of the outer variable alone?
 A: When integrating $\int_c^d f(x, y)\,dy$, $x$ is held fixed and plays the role of a parameter. The result is a definite integral whose value depends on $x$, i.e., a function $g(x) = \int_c^d f(x, y)\,dy$. The outer integral then integrates this $g(x)$ over $[a, b]$, reducing the 2D problem to two 1D problems.
@@ -51,7 +51,7 @@ A: The innermost differential $dy$ pairs with the innermost limits $c$ and $d$; 
 
 ## 10.5 Fubini's Theorem
 
-C: [Fubini's theorem] states that if $f$ is continuous on the rectangle $R = [a, b] \times [c, d]$, then $\iint_R f(x, y)\,dA = \int_a^b \int_c^d f(x, y)\,dy\,dx = \int_c^d \int_a^b f(x, y)\,dx\,dy$.
+C: [Fubini's theorem] states that if $f$ is continuous on the rectangle $R = \lbrack a, b\rbrack  \times \lbrack c, d\rbrack $, then $\iint_R f(x, y)\,dA = \int_a^b \int_c^d f(x, y)\,dy\,dx = \int_c^d \int_a^b f(x, y)\,dx\,dy$.
 
 Q: Why is Fubini's theorem the workhorse of double integration?
 A: It guarantees that the abstract limit-of-Riemann-sum definition of $\iint_R f\,dA$ can be computed as two nested ordinary integrals, and that either order of integration gives the same answer. Without it, the double integral would be a theoretical object with no practical computation method.

@@ -173,7 +173,7 @@ A: Those are the north and south poles — the latitude circle shrinks to a poin
 Q: When should you reach for spherical coordinates?
 A: When the region has spherical symmetry about the origin (balls, spherical shells, cones with vertex at origin) or when the integrand depends only on $\rho=\sqrt{x^2+y^2+z^2}$. Then $\rho$ bounds become constants or simple functions, and angular integrals often decouple.
 
-C: A sphere of radius $a$ centered at the origin is described in spherical coordinates as [$\rho = a$], with $\phi\in[0,\pi]$ and $\theta\in[0,2\pi)$.
+C: A sphere of radius $a$ centered at the origin is described in spherical coordinates as [$\rho = a$], with $\phi\in\lbrack 0,\pi\rbrack $ and $\theta\in\lbrack 0,2\pi)$.
 
 Q: Why does a cone with vertex at the origin have a simple spherical description?
 A: A cone $z=\sqrt{x^2+y^2}$ is the set of points making a fixed angle with the $+z$-axis. In spherical coordinates that's $\phi=\pi/4$ — a single angular equation, just as a plane through the origin is described by fixing one angle.
