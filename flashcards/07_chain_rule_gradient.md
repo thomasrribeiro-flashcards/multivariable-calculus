@@ -1,6 +1,6 @@
 +++
 order = 7
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "chain-rule", "gradient", "directional-derivative", "implicit-differentiation"]
 +++
 
@@ -37,7 +37,7 @@ A: $f_x = 2xy$, $f_y = x^2$, $dx/dt = -\sin t$, $dy/dt = \cos t$. Then $dz/dt = 
 Q: How does the chain rule change when the intermediates $x$ and $y$ depend on two independent variables $s$ and $t$?
 A: Each independent variable gets its own chain rule. We use partial derivatives because now both $s$ and $t$ are independent: $\dfrac{\partial z}{\partial s} = f_x\,\dfrac{\partial x}{\partial s} + f_y\,\dfrac{\partial y}{\partial s}$ and $\dfrac{\partial z}{\partial t} = f_x\,\dfrac{\partial x}{\partial t} + f_y\,\dfrac{\partial y}{\partial t}$. The structure is identical — sum contributions along all paths — but $s$ and $t$ each get their own sum.
 
-C: For $z = f(x(s, t), y(s, t))$, [$\partial z/\partial s = f_x\,\partial x/\partial s + f_y\,\partial y/\partial s$], where all partials of $f$ are evaluated at $(x(s, t), y(s, t))$.
+C: For $z = f(x(s, t), y(s, t))$, $\partial z/\partial s =$ [$f_x\,\partial x/\partial s + f_y\,\partial y/\partial s$], where all partials of $f$ are evaluated at $(x(s, t), y(s, t))$.
 
 Q: Why must we switch from $d$ to $\partial$ when $x$ and $y$ depend on more than one variable?
 A: Because with multiple independent inputs ($s$ and $t$), differentiating with respect to one requires holding the others fixed. The partial notation records which variable is being varied and which are held constant, which is ambiguous with $d$.

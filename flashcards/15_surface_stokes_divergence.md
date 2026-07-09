@@ -1,6 +1,6 @@
 +++
 order = 15
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "surface-integrals", "stokes-theorem", "divergence-theorem", "flux", "curl"]
 +++
 
@@ -67,7 +67,7 @@ C: The [Möbius strip] is the classic example of a non-orientable surface, on wh
 Q: Why is the Möbius strip non-orientable?
 A: Transporting a normal vector continuously once around the strip returns it pointing in the opposite direction, contradicting the requirement of a single-valued continuous normal field. No consistent "side" can be picked.
 
-C: For a parametric surface, one orientation is $\hat{n} = \dfrac{\vec{r}_u \times \vec{r}_v}{|\vec{r}_u \times \vec{r}_v|}$; the [opposite] orientation is obtained by negating this or swapping $u$ and $v$.
+C: For a parametric surface, one orientation is $\hat{n} = \dfrac{\vec{r}_u \times \vec{r}_v}{|\vec{r}_u \times \vec{r}_v|}$; the opposite orientation is obtained by [negating this or swapping $u$ and $v$].
 
 ## 15.6 Surface Integrals of Vector Fields (Flux)
 

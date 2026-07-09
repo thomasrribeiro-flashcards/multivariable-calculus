@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "extrema", "critical-points", "second-derivative-test", "lagrange-multipliers"]
 +++
 
@@ -40,8 +40,8 @@ A: If a partial derivative were nonzero, you could move a tiny step in that coor
 Q: How does the proof that interior extrema are critical points use single-variable Fermat's theorem?
 A: Fix $y = b$ and view $g(x) = f(x, b)$ as a one-variable function. If $f$ has a local extremum at $(a, b)$, then $g$ has a local extremum at $x = a$, so by Fermat, $g'(a) = f_x(a, b) = 0$. Repeating with $x = a$ fixed gives $f_y(a, b) = 0$, so $\nabla f(a, b) = \vec{0}$.
 
-Q: Does $\nabla f(a, b) = \vec{0}$ guarantee that $(a, b)$ is a local extremum?
-A: No. The condition is necessary but not sufficient: every interior extremum is a critical point, but not every critical point is an extremum. Saddle points are the classic counterexample, so critical points must be classified further using the second derivative test or direct analysis.
+Q: Why does $\nabla f(a, b) = \vec{0}$ not guarantee that $(a, b)$ is a local extremum?
+A: The condition is necessary but not sufficient: every interior extremum is a critical point, but not every critical point is an extremum. Saddle points are the classic counterexample, so critical points must be classified further using the second derivative test or direct analysis.
 
 ## 9.4 Saddle Points
 
@@ -161,7 +161,7 @@ A: That tangential component predicts a direction along the constraint in which 
 
 ## 9.14 The Lagrange Multiplier Equation
 
-C: At a constrained extremum of $f$ subject to $g = c$, there exists a scalar [$\lambda$] (the Lagrange multiplier) such that $\nabla f = \lambda \nabla g$.
+C: At a constrained extremum of $f$ subject to $g = c$, there exists a scalar $\lambda$ (the Lagrange multiplier) such that [$\nabla f = \lambda \nabla g$].
 
 Q: What does the number $\lambda$ represent in $\nabla f = \lambda \nabla g$?
 A: It is the proportionality factor between the two parallel gradients at the extremum; its sign and magnitude record how $\nabla f$ scales relative to $\nabla g$. It has no geometric meaning on its own but gains physical interpretation as a sensitivity (see 9.17).

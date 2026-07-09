@@ -1,6 +1,6 @@
 +++
 order = 6
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "partial-derivatives", "higher-order", "clairaut", "differentiability"]
 +++
 
@@ -125,7 +125,7 @@ A: Yes. The standard example is $f(x, y) = xy/(x^2 + y^2)$ with $f(0, 0) = 0$. A
 Q: Why does this example not contradict any theorem?
 A: Because partials capture only axis-aligned behavior, whereas continuity (and differentiability) require control along every approach path. No theorem promises continuity from partial-derivative existence alone. The example precisely exhibits pathological diagonal behavior invisible to axis-aligned tests.
 
-C: In several variables, existence of $f_x$ and $f_y$ at a point does not imply [continuity] of $f$ at that point.
+C: In several variables, existence of $f_x$ and $f_y$ at a point does not even imply [continuity] of $f$ at that point, let alone differentiability.
 
 ## 6.12 Continuous Partials Imply Differentiability
 

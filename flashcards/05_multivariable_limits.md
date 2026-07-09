@@ -1,6 +1,6 @@
 +++
 order = 5
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "functions-several-variables", "limits", "continuity", "level-curves"]
 +++
 

@@ -63,7 +63,7 @@ A: Choose the parameter $s$ equal to the distance traveled along the curve from 
 Q: Why is arc-length parametrization called "canonical"?
 A: It is determined by the curve's geometry alone (up to choice of starting point and direction), not by any arbitrary time parameter. Any two people parametrizing the same oriented curve by arc length will get the same functions.
 
-C: In arc-length parametrization, the speed is always [1], so $|\vec{r}\,'(s)| = 1$.
+C: In arc-length parametrization, the speed $|\vec{r}\,'(s)|$ is always [1].
 
 ## 4.7 Why arc-length parametrization simplifies curvature formulas
 
@@ -115,7 +115,7 @@ A: $\kappa = |f''(x)|$. At a flat tangent, the parameter $x$ coincides with arc 
 
 ## 4.12 Geometric meaning of curvature (reciprocal of osculating circle radius)
 
-C: Curvature equals the [reciprocal] of the radius of the osculating circle: $\kappa = 1/R$, where $R$ is the radius of the best-fit tangent circle at that point.
+C: Curvature equals the [reciprocal] of the radius $R$ of the osculating circle, the best-fit tangent circle at that point.
 
 Q: What is the osculating circle at a point on a curve?
 A: The unique circle that matches the curve's position, tangent direction, and curvature at that point. It is the circle that "best approximates" the curve locally, lying in the osculating plane on the concave side.

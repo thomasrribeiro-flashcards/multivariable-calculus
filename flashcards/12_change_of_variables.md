@@ -1,6 +1,6 @@
 +++
 order = 12
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "change-of-variables", "jacobian", "transformations", "substitution"]
 +++
 
@@ -43,7 +43,7 @@ C: For polar coordinates, $T$ fails to be one-to-one where [$r = 0$] because all
 
 ## 12.4 The Jacobian in 2D
 
-C: The Jacobian of $T:(u,v)\to(x,y)$ is [$J = \frac{\partial(x,y)}{\partial(u,v)} = \det\begin{pmatrix} x_u & x_v\\ y_u & y_v\end{pmatrix}$], where subscripts denote partial derivatives.
+C: The Jacobian of $T:(u,v)\to(x,y)$ is $J = \frac{\partial(x,y)}{\partial(u,v)} = $ [$\det\begin{pmatrix} x_u & x_v\\ y_u & y_v\end{pmatrix}$], where subscripts denote partial derivatives.
 
 Q: What is the explicit formula for the 2D Jacobian $J = \frac{\partial(x,y)}{\partial(u,v)}$?
 A: $J = x_u y_v - x_v y_u$, where $x_u = \partial x/\partial u$, $x_v = \partial x/\partial v$, $y_u = \partial y/\partial u$, and $y_v = \partial y/\partial v$. It is the determinant of the matrix of first partials of $(x,y)$ with respect to $(u,v)$.
@@ -107,7 +107,8 @@ C: The polar-coordinate area element is $dA = [r]\,dr\,d\theta$.
 
 ## 12.9 3D Change of Variables
 
-C: For a 3D transformation $x=g(u,v,w),\,y=h(u,v,w),\,z=k(u,v,w)$, the Jacobian is [$J = \det\begin{pmatrix} x_u & x_v & x_w\\ y_u & y_v & y_w\\ z_u & z_v & z_w\end{pmatrix}$].
+Q: For a 3D transformation $x=g(u,v,w),\,y=h(u,v,w),\,z=k(u,v,w)$, what is the Jacobian $J$?
+A: $J = \det\begin{pmatrix} x_u & x_v & x_w\\ y_u & y_v & y_w\\ z_u & z_v & z_w\end{pmatrix}$ — the determinant of the $3\times 3$ matrix of first partials.
 
 C: The 3D change-of-variables formula is [$\iiint_R f\,dV = \iiint_S f(x,y,z)\,|J|\,du\,dv\,dw$], where $|J|$ is now a volume-scaling factor.
 
@@ -196,8 +197,8 @@ A: Both $x-y$ and $x+y$ become single coordinate variables ($v$ and $u$), so the
 Q: If you are given $u,v$ as functions of $x,y$ but the formula needs $x,y$ as functions of $u,v$, what must you do first?
 A: Solve the system $u=u(x,y),\,v=v(x,y)$ for $x$ and $y$ in terms of $u$ and $v$. The change-of-variables formula requires expressing $f$ and computing partials of $x,y$ with respect to $u,v$, so the inversion is a prerequisite step.
 
-Q: Is there a shortcut when inverting is hard?
-A: Yes: compute the "reverse" Jacobian $\frac{\partial(u,v)}{\partial(x,y)}$ directly from the given formulas, then use the identity $\frac{\partial(x,y)}{\partial(u,v)} = \left(\frac{\partial(u,v)}{\partial(x,y)}\right)^{-1}$. This lets you find $|J|$ without explicitly inverting the transformation.
+Q: What shortcut gives $|J|$ when explicitly inverting the transformation is hard?
+A: Compute the "reverse" Jacobian $\frac{\partial(u,v)}{\partial(x,y)}$ directly from the given formulas, then use the identity $\frac{\partial(x,y)}{\partial(u,v)} = \left(\frac{\partial(u,v)}{\partial(x,y)}\right)^{-1}$. This lets you find $|J|$ without explicitly inverting the transformation.
 
 C: The Jacobians of a transformation and its inverse satisfy $\frac{\partial(x,y)}{\partial(u,v)}\cdot\frac{\partial(u,v)}{\partial(x,y)} = [1]$.
 
@@ -258,7 +259,7 @@ S:
 
 **EVALUATE**: The ball has volume $\tfrac{4}{3}\pi(2)^3 = \tfrac{32\pi}{3}$, and $\rho^2$ averages $\tfrac{1}{V}\int_E\rho^2\,dV$. Our answer gives an average of $\tfrac{128\pi/5}{32\pi/3} = \tfrac{12}{5} = 2.4$, which is less than the maximum value $\rho^2=4$ at the boundary and greater than zero at the center — reasonable for a weighted average. Units and signs check out.
 
-## 12.10 Pattern-Recognition: Choosing the Right Coordinate System
+## 12.20 Pattern-Recognition: Choosing the Right Coordinate System
 
 Q: You see an integral over a disk, annulus, or sector. What coordinates?
 A: Polar — $x=r\cos\theta$, $y=r\sin\theta$, $dA = r\,dr\,d\theta$.

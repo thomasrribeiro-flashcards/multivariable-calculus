@@ -1,6 +1,6 @@
 +++
 order = 13
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "vector-fields", "line-integrals", "work", "flux"]
 +++
 
@@ -25,7 +25,7 @@ C: A vector field $\vec{F}$ is called a [gradient field] (or conservative field)
 Q: Why are gradient fields especially important?
 A: Gradient fields package the geometry of a scalar potential $f$ into a vector field $\nabla f$ that points in the direction of steepest increase of $f$. This structure makes work integrals path-independent and underlies conservative forces like gravity and electrostatics.
 
-C: The gravitational field of a point mass $M$ at the origin is $\vec{F}(\vec{r}) = -\dfrac{GM}{|\vec{r}|^3}\vec{r}$, where $\vec{r}$ is the position vector of the field point and $G$ is the [gravitational constant].
+C: The gravitational field of a point mass $M$ at the origin is $\vec{F}(\vec{r}) =$ [$-\dfrac{GM}{|\vec{r}|^3}\vec{r}$], where $\vec{r}$ is the position vector of the field point and $G$ is the gravitational constant.
 
 Q: How do you sketch a vector field by hand?
 A: Pick a grid of sample points, evaluate $\vec{F}$ at each one, and draw a small arrow at each point whose direction matches $\vec{F}$ and whose length is proportional to $|\vec{F}|$. Arrow lengths are usually rescaled uniformly so the picture is readable.

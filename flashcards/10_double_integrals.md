@@ -1,6 +1,6 @@
 +++
 order = 10
-subject = "Math"
+subject = "Mathematics"
 tags = ["math", "multivariable-calculus", "double-integrals", "fubini", "polar-coordinates", "applications"]
 +++
 
