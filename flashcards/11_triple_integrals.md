@@ -1,6 +1,6 @@
 +++
 order = 11
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "multivariable-calculus", "triple-integrals", "cylindrical", "spherical", "volume", "moments"]
 +++
 

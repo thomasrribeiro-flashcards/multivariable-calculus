@@ -1,6 +1,6 @@
 +++
 order = 9
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "multivariable-calculus", "extrema", "critical-points", "second-derivative-test", "lagrange-multipliers"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 13
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "multivariable-calculus", "vector-fields", "line-integrals", "work", "flux"]
 +++
 

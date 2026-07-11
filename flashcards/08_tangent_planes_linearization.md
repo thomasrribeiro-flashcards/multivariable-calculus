@@ -1,6 +1,6 @@
 +++
 order = 8
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "multivariable-calculus", "tangent-plane", "linearization", "differentials", "linear-approximation"]
 +++
 

@@ -1,6 +1,6 @@
 +++
 order = 7
-subject = "Mathematics"
+subject = "mathematics"
 tags = ["math", "multivariable-calculus", "chain-rule", "gradient", "directional-derivative", "implicit-differentiation"]
 +++
 
